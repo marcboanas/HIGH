@@ -1,4 +1,4 @@
-app = angular.module('HighApp', ['templates', 'ngRoutes', 'controllers'])
+app = angular.module('HighApp', ['templates', 'ngRoute', 'controllers'])
 
 app.config(['$routeProvider',
   ($routeProvider)->
